@@ -1,0 +1,11 @@
+{
+  "contacts": 30000,
+  "missing_raw_text_rate": 0.0,
+  "empty_clean_text_rate": 0.0,
+  "short_text_rate": 0.0028666666666666667,
+  "duplicate_contact_rate": 0.0,
+  "contacts_with_redaction_rate": 0.17833333333333334,
+  "total_redactions": 5810,
+  "channels": 5,
+  "service_lines": 2
+}

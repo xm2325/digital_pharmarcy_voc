@@ -1,0 +1,6 @@
+{
+  "packaged_default": "offline local models executed",
+  "sentence_transformer_classifier": "not executed in packaged build; run src.optional_transformer_benchmark after downloading a model",
+  "huggingface_fine_tuned_classifier": "not executed in packaged build; run src.optional_hf_finetune after downloading a model",
+  "reason": "The public repository remains runnable without external model downloads. Optional scripts are included for a connected environment."
+}

@@ -1,0 +1,101 @@
+contact_id,channel,raw_text,clean_text,redaction_count
+C0000007,email,"Hi support, I forgot my password and cannot access my prescrption thanks My phone is 07407522280",hi support i forgot my password and cannot access my prescription thanks my phone is [phone],1
+C0000011,email,"Hi support, The app says it is too soon but I need my tablets before holiday asap order no P2U-313859",hi support the app says it is too soon but i need my tablets before holiday as soon as possible [order_ref],1
+C0000013,phone_transcript,"pls can you help, The parcel is missing even though it says delivered please My phone is 07555657749",please can you help the parcel is missing even though it says delivered please my phone is [phone],1
+C0000025,email,"Hello, I want to make a complaint about the service. postcode B15 2TT",hello i want to make a complaint about the service postcode [postcode],1
+C0000029,phone_transcript,"pls can you help, My medication order is stuck during processing. My phone is 07233620335",please can you help my medication order is stuck during processing my phone is [phone],1
+C0000030,live_chat,hi - The medicine parcel is delayed after dispatch. DOB 18/11/1975,hi - the medicine parcel is delayed after dispatch dob [dob],1
+C0000042,phone_transcript,right so Please send me the tracking link for my parcel. email jo55@example.com,right so please send me the tracking link for my parcel email [email],1
+C0000043,email,Please help. There is a stock issue with my tablets!!! address 45 Spring Lane,please help there is a stock issue with my tablets address [address],1
+C0000044,phone_transcript,hi I am calling because My medss have not arrived at all. My phone is 07761714555,hi i am calling because my medss have not arrived at all my phone is [phone],1
+C0000049,phone_transcript,"right so Where can I find my Royal Mail tracking number? Also, The medicine parcel is delayed after dispatch My phone is 07953770527",right so where can i find my royal mail tracking number also the medicine parcel is delayed after dispatch my phone is [phone],1
+C0000052,live_chat,hello I moved house and need to update my address pls order no P2U-669583,hello i moved house and need to update my address please [order_ref],1
+C0000057,live_chat,hello Royal Mail tracking has not moved and my delivery is late asap my name is Jo Brown,hello royal mail tracking has not moved and my delivery is late as soon as possible [name],1
+C0000063,live_chat,My GP says they sent the prescrption but it is not showing asap My phone is 07251428720,my gp says they sent the prescription but it is not showing as soon as possible my phone is [phone],1
+C0000067,live_chat,I want to make a complaint about the service!!! My phone is 07766515532,i want to make a complaint about the service my phone is [phone],1
+C0000070,phone_transcript,"hello um My order is waiting for GP approval, what should I do? order no P2U-945014",hello um my order is waiting for gp approval what should i do [order_ref],1
+C0000077,app_review,Please fix this: Can you check why the surgery step has not changed?,please fix this [gp_surgery] step has not changed,1
+C0000081,live_chat,Where can I find my Royal Mail tracking number? please My phone is 07447143396,where can i find my royal mail tracking number please my phone is [phone],1
+C0000082,phone_transcript,"please can you help, There is a stock issue with my tablets asap My phone is 07739493232",please can you help there is a stock issue with my tablets as soon as possible my phone is [phone],1
+C0000084,phone_transcript,hi I am calling because I moved house and need to update my address. My phone is 07450190306,hi i am calling because i moved house and need to update my address my phone is [phone],1
+C0000089,phone_transcript,"please can you help, I received a dispatch message for the wrong order asap DOB 12/12/1964",please can you help i received a dispatch message for the wrong order as soon as possible dob [dob],1
+C0000092,app_review,Not happy. Royal Mail tracking has not moved and my delivery is late. order no P2U-373197,not happy royal mail tracking has not moved and my delivery is late [order_ref],1
+C0000104,email,"Hello, Can you check why the surgery step has not changed? thanks",hello [gp_surgery] step has not changed thanks,1
+C0000106,email,Please help. My prescription should have arrived yday!!! postcode M13 9PL,please help my prescription should have arrived yesterday postcode [postcode],1
+C0000112,email,"Hello, The medicine parcel is delayed after dispatch thanks My phone is 07730117064",hello the medicine parcel is delayed after dispatch thanks my phone is [phone],1
+C0000117,live_chat,hi - The prescription was declined by the surgery please My phone is 07789429057,[gp_surgery] please my phone is [phone],2
+C0000124,phone_transcript,right so My meds order has not arrived yet address 12 Oak Road,right so my medicine order has not arrived yet address [address],1
+C0000126,phone_transcript,"hello um Can the rest of my medication be dispatched separately? Also, You said my medicine is unavailable please My phone is 07207835111",hello um can the rest of my medication be dispatched separately also you said my medicine is unavailable please my phone is [phone],1
+C0000131,phone_transcript,"pls can you help, Can you check why the surgery step has not changed? please",please can you help [gp_surgery] step has not changed please,1
+C0000133,phone_transcript,"please can you help, How do I order my repeat prescription? thanks order no P2U-375033",please can you help how do i order my repeat prescription thanks [order_ref],1
+C0000147,app_review,"My order is waiting for GP aproval, what should I do? email pat97@example.com",my order is waiting for gp approval what should i do email [email],1
+C0000154,email,Please help. Royal Mail tracking has not moved and my delivery is late please My phone is 07348975485,please help royal mail tracking has not moved and my delivery is late please my phone is [phone],1
+C0000159,phone_transcript,hi I am calling because My GP says they sent the prescription but it is not showing thanks email alex59@example.com,hi i am calling because my gp says they sent the prescription but it is not showing thanks email [email],1
+C0000160,email,"Dear team, Urgent, I need my inhaler and there is none left order no P2U-105274",dear team urgent i need my inhaler and there is none left [order_ref],1
+C0000169,phone_transcript,hi I am calling because Can you tell me what is happening with my parcel? thanks My phone is 07379588653,hi i am calling because can you tell me what is happening with my parcel thanks my phone is [phone],1
+C0000171,phone_transcript,right so How do I track my medicine delivery? please postcode M13 9PL,right so how do i track my medicine delivery please postcode [postcode],1
+C0000177,phone_transcript,hi I am calling because Why have the reminder texts stopped?. My phone is 07651807330,hi i am calling because why have the reminder texts stopped my phone is [phone],1
+C0000181,live_chat,I have a notification issue please from Spring Lane Practice,i have [gp_surgery],1
+C0000185,phone_transcript,right so I want to make a complaint about the service My phone is 07452357525,right so i want to make a complaint about the service my phone is [phone],1
+C0000187,social,Please respond: My GP says they sent the prescrption but it is not showing thanks email sam67@example.com,please respond my gp says they sent the prescription but it is not showing thanks email [email],1
+C0000195,app_review,App issue: The parcel is missing even though it says delivered. postcode SW1A 1AA,app issue the parcel is missing even though it says delivered postcode [postcode],1
+C0000202,live_chat,pls help: The app says awaiting GP aproval for days!!! my name is Jo Brown,please help the app says awaiting gp approval for days [name],1
+C0000215,email,"Hello, The app says awaiting GP approval for days asap DOB 20/07/1951",hello the app says awaiting gp approval for days as soon as possible dob [dob],1
+C0000222,email,"Dear team, The prescription was declined by the surgery",dear team [gp_surgery],1
+C0000226,live_chat,hello The app says awaiting GP aproval for days. email sam70@example.com,hello the app says awaiting gp approval for days email [email],1
+C0000230,live_chat,Royal Mail tracking has not moved and my delivery is late please postcode M13 9PL,royal mail tracking has not moved and my delivery is late please postcode [postcode],1
+C0000236,phone_transcript,hello um The prescription was declined by the surgery.,[gp_surgery],1
+C0000237,email,pls help. The notification says my order is cancelled but the app says packing thanks from Riverside Surgery,please help the notification says my order is cancelled [gp_surgery],1
+C0000256,phone_transcript,hello um Can someone contact me?!!! postcode SW1A 1AA,hello um can someone contact me postcode [postcode],1
+C0000264,phone_transcript,"please can you help, The request is missing from my account. NHS number 6984130578",please can you help the request is missing from my account nhs number [nhs_number],1
+C0000265,live_chat,hi - I have contacted you twice and nobody has resolved this email alex52@example.com,hi - i have contacted you twice and nobody has resolved this email [email],1
+C0000269,live_chat,My prescription should have arrived yesterday please email sam10@example.com DOB 15/11/1985,my prescription should have arrived yesterday please email [email] dob [dob],2
+C0000276,live_chat,hi - The medicine parcel is delayed after dispatch DOB 19/04/1972,hi - the medicine parcel is delayed after dispatch dob [dob],1
+C0000286,phone_transcript,hi I am calling because Why is my prescrption still with my GP? please DOB 24/11/2003,hi i am calling because why is my prescription still with my gp please dob [dob],1
+C0000287,phone_transcript,"please can you help, Why is my prescription still with my GP?. postcode M13 9PL",please can you help why is my prescription still with my gp postcode [postcode],1
+C0000293,email,"Hello, My prescription should have arrived yday asap my name is Jo Brown",hello my prescription should have arrived yesterday as soon as possible [name],1
+C0000299,phone_transcript,hello um Can someone contact me? thanks order no P2U-388833 address 12 Oak Road,hello um can someone contact me thanks [order_ref] address [address],2
+C0000301,phone_transcript,"please can you help, Where can I find my Royal Mail tracking number? Also, The medicine parcel is delayed after dispatch asap My phone is 07913943506",please can you help where can i find my royal mail tracking number also the medicine parcel is delayed after dispatch as soon as possible my phone is [phone],1
+C0000317,live_chat,pls help: Where can I find my Royal Mail tracking number? email sam87@example.com,please help where can i find my royal mail tracking number email [email],1
+C0000319,app_review,App issue: The message in the app does not look right order no P2U-339302,app issue the message in the app does not look right [order_ref],1
+C0000324,live_chat,The medicine parcel is delayed after dispatch please My phone is 07946683220,the medicine parcel is delayed after dispatch please my phone is [phone],1
+C0000330,social,My medicine order has not arrived yet please my name is Alex Smith,my medicine order has not arrived yet please [name],1
+C0000332,app_review,App issue: I returned an item and need a refund update DOB 03/03/1997 NHS number 5317252191,app issue i returned an item and need a refund update dob [dob] nhs number [nhs_number],2
+C0000333,phone_transcript,"please can you help, Tracking says delivered but there is no parcel here Also, The medicine parcel is delayed after dispatch email pat45@example.com",please can you help tracking says delivered but there is no parcel here also the medicine parcel is delayed after dispatch email [email],1
+C0000339,app_review,Please fix this: How do I track my medicine delivery? please My phone is 07554128092,please fix this how do i track my medicine delivery please my phone is [phone],1
+C0000349,phone_transcript,hello um These tablets make me dizzy and I feel very unwell asap postcode M13 9PL,hello um these tablets make me dizzy and i feel very unwell as soon as possible postcode [postcode],1
+C0000357,phone_transcript,right so Why have the reminder texts stopped? asap NHS number 2398688487,right so why have the reminder texts stopped as soon as possible nhs number [nhs_number],1
+C0000359,app_review,"App issue: One item is out of stock, when will it be available? asap My phone is 07865456047 postcode B15 2TT",app issue one item is out of stock when will it be available as soon as possible my phone is [phone] postcode [postcode],2
+C0000361,live_chat,pls help: Where is my Online Doctor order? please email jo73@example.com,please help where is my online doctor order please email [email],1
+C0000369,email,"Hello, The order is stuck at clinical review asap email alex71@example.com",hello the order is stuck at clinical review as soon as possible email [email],1
+C0000374,email,pls help. Where can I find my Royal Mail tracking number? please postcode B15 2TT,please help where can i find my royal mail tracking number please postcode [postcode],1
+C0000380,phone_transcript,hi I am calling because The doctor-related status looks wrong!!! email sam21@example.com,hi i am calling because the doctor-related status looks wrong email [email],1
+C0000388,app_review,Not happy. The app says awaiting GP approval for days please My phone is 07907347311,not happy the app says awaiting gp approval for days please my phone is [phone],1
+C0000391,app_review,App issue: The notification says my order is cancelled but the app says packing. address 8 Market Street,app issue the notification says my order is cancelled but the app says packing address [address],1
+C0000393,phone_transcript,"please can you help, Why is my prescription still with my GP? please from Oakfield Medical Centre",please can you help why is my prescription still with my gp [gp_surgery],1
+C0000396,phone_transcript,"pls can you help, Please send me the tracking link for my parcel please NHS number 9376692406",please can you help please send me the tracking link for my parcel please nhs number [nhs_number],1
+C0000402,phone_transcript,"pls can you help, I have contacted you twice and nobody has resolved this!!! email jo24@example.com",please can you help i have contacted you twice and nobody has resolved this email [email],1
+C0000421,email,"Dear team, Royal Mail tracking has not moved and my delivery is late Also, Please send me the tracking link for my parcel asap DOB 06/12/1968",dear team royal mail tracking has not moved and my delivery is late also please send me the tracking link for my parcel as soon as possible dob [dob],1
+C0000429,live_chat,Why have you not received my prescrption yet? DOB 26/06/1958,why have you not received my prescription yet dob [dob],1
+C0000434,phone_transcript,"hello um You said my meds is unavailable Also, Can the rest of my medication be dispatched separately? thanks from Riverside Surgery",hello um you said my medicine is unavailable also can the rest of my medication be dispatched separately [gp_surgery],1
+C0000445,phone_transcript,hello um The app will not let me sign in thanks My phone is 07938365452,hello um the app will not let me sign in thanks my phone is [phone],1
+C0000447,phone_transcript,right so I have no medicine left and cannot wait for delivery please email sam61@example.com,right so i have no medicine left and cannot wait for delivery please email [email],1
+C0000454,live_chat,pls help: My meds order has not arrived yet. email alex78@example.com from Oakfield Medical Centre,please help my medicine order has not arrived yet email [email] [gp_surgery],2
+C0000457,phone_transcript,"please can you help, The app did not remind me to request my tablets thanks postcode SW1A 1AA",please can you help the app did not remind me to request my tablets thanks postcode [postcode],1
+C0000465,email,Please help. How long does the refund take?!!! NHS number 7957797921,please help how long does the refund take nhs number [nhs_number],1
+C0000477,live_chat,hi - How do I track my medicine delivery?. my name is Alex Smith,hi - how do i track my medicine delivery [name],1
+C0000484,app_review,pls fix this: I have contacted you twice and nobody has resolved this. email sam95@example.com,please fix this i have contacted you twice and nobody has resolved this email [email],1
+C0000486,live_chat,hello My prescription is still waiting and I do not know why. My phone is 07894649909,hello my prescription is still waiting and i do not know why my phone is [phone],1
+C0000494,phone_transcript,right so Can you check why the surgery step has not changed? asap,[gp_surgery] step has not changed as soon as possible,1
+C0000499,live_chat,"hello I am going away next week, can I order my medication early?. NHS number 8995222352",hello i am going away next week can i order my medication early nhs number [nhs_number],1
+C0000506,phone_transcript,"please can you help, Please send future prescriptions to my new address please postcode M13 9PL",please can you help please send future prescriptions to my new address please postcode [postcode],1
+C0000507,social,Can someone help? How do I track my medicine delivery?!!! My phone is 07729546656,can someone help how do i track my medicine delivery my phone is [phone],1
+C0000509,phone_transcript,right so I returned an item and need a refund update thanks DOB 17/10/1952,right so i returned an item and need a refund update thanks dob [dob],1
+C0000517,phone_transcript,hello um I cannot log into my account please My phone is 07966559379,hello um i cannot log into my account please my phone is [phone],1
+C0000528,live_chat,hi - Why is my prescription still with my GP? asap email pat39@example.com postcode LS15 8GB,hi - why is my prescription still with my gp as soon as possible email [email] postcode [postcode],2
+C0000529,phone_transcript,right so This has been frustrating and I need someone to help. My phone is 07665865926,right so this has been frustrating and i need someone to help my phone is [phone],1
+C0000533,phone_transcript,"hello um The prescription is ready but has not left the warehouse Also, Why is the pharmacist check taking so long?. postcode B15 2TT",hello um the prescription is ready but has not left the warehouse also why is the pharmacist check taking so long postcode [postcode],1
+C0000539,live_chat,Can you check why the surgery step has not changed?.,[gp_surgery] step has not changed,1
+C0000540,live_chat,hello When will you post my tablets? thanks My phone is 07189024191,hello when will you post my tablets thanks my phone is [phone],1
+C0000547,phone_transcript,hello um I think I am having a reaction to my new medication. My phone is 07566504866,hello um i think i am having a reaction to my new medication my phone is [phone],1
+C0000557,phone_transcript,hi I am calling because The medicine parcel is delayed after dispatch please from Riverside Surgery,hi i am calling because the medicine parcel is [gp_surgery],1

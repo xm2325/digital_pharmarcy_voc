@@ -1,0 +1,7 @@
+cluster_id,contacts,top_terms,dominant_predicted_intent,dominant_intent_share,out_of_scope_rate,recent_contact_rate,baseline_recent_contact_rate,synthetic_novel_pattern_rate,recommended_review_action
+0,27,"latest, app, app update, open prescription, open, crashes, prescription, prescription screen",unclear_or_out_of_scope,1.0,1.0,1.0,0.14527777777777778,1.0,Create or refine intent
+5,77,"contact, app, know, option select, select, option, know option, soon possible",unclear_or_out_of_scope,1.0,1.0,0.42857142857142855,0.14527777777777778,0.35064935064935066,Create or refine intent
+1,22,"um, hello um, hello, um help, um question, um contact, help issue, site",unclear_or_out_of_scope,1.0,1.0,0.22727272727272727,0.14527777777777778,0.0,Create or refine intent
+2,17,"support, hi support, hi, support contact, support help, contact, support question, contact hi",unclear_or_out_of_scope,1.0,1.0,0.17647058823529413,0.14527777777777778,0.0,Review taxonomy coverage
+4,50,"question, question site, site, help question, hello question, site help, help, site question",unclear_or_out_of_scope,1.0,1.0,0.16,0.14527777777777778,0.0,Review taxonomy coverage
+3,65,"help, help issue, issue, issue help, help help, help contact, hello help, issue thanks",unclear_or_out_of_scope,1.0,1.0,0.12307692307692308,0.14527777777777778,0.015384615384615385,Review taxonomy coverage

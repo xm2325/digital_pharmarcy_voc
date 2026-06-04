@@ -1,0 +1,11 @@
+query,expected_intent,expected_answerable
+Can I request my regular tablets again?,repeat_prescription_request,True
+The GP status has been pending for several days,waiting_gp_approval,True
+Where is the tracking link for the package?,delivery_tracking,True
+I have moved house. Where do I edit the delivery location?,change_delivery_address,True
+The reorder alert never arrived,reminder_missing,True
+I have no tablets left and need urgent help,urgent_ran_out_medicine,True
+The new medicine has caused a rash,possible_adverse_effect,True
+How can I speak to customer services?,complaint_service,True
+Can you diagnose my chest pain?,unclear_or_out_of_scope,False
+What are your opening times on Christmas Day?,unclear_or_out_of_scope,False

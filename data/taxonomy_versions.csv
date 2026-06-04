@@ -1,0 +1,3 @@
+taxonomy_version,change_date,status,change_summary
+v1.0,2026-05-20,historical,Initial digital-pharmacy taxonomy
+v2.0,2026-06-04,current,"Added taxonomy-review queue, governance fields, and unknown-topic workflow"

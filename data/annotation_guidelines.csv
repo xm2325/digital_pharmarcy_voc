@@ -1,0 +1,23 @@
+intent,definition,include_when,exclude_when
+repeat_prescription_request,Routine repeat request,Text primarily concerns: routine repeat request,Use another label when a more specific primary contact driver is present.
+early_repeat_request,Request submitted earlier than expected,Text primarily concerns: request submitted earlier than expected,Use another label when a more specific primary contact driver is present.
+prescription_not_received,Prescription request not visible,Text primarily concerns: prescription request not visible,Use another label when a more specific primary contact driver is present.
+waiting_gp_approval,GP approval pending,Text primarily concerns: gp approval pending,Use another label when a more specific primary contact driver is present.
+gp_declined_request,GP declined or changed request,Text primarily concerns: gp declined or changed request,Use another label when a more specific primary contact driver is present.
+clinical_review_delay,Pharmacist review pending,Text primarily concerns: pharmacist review pending,Use another label when a more specific primary contact driver is present.
+medicine_unavailable,Stock availability issue,Text primarily concerns: stock availability issue,Use another label when a more specific primary contact driver is present.
+split_order_request,One item delays a multi-item order,Text primarily concerns: one item delays a multi-item order,Use another label when a more specific primary contact driver is present.
+not_dispatched,Order packed but not dispatched,Text primarily concerns: order packed but not dispatched,Use another label when a more specific primary contact driver is present.
+delivery_tracking,Customer requests tracking details,Text primarily concerns: customer requests tracking details,Use another label when a more specific primary contact driver is present.
+delivery_delayed,Carrier delay after dispatch,Text primarily concerns: carrier delay after dispatch,Use another label when a more specific primary contact driver is present.
+parcel_not_received,Parcel marked delivered or overdue,Text primarily concerns: parcel marked delivered or overdue,Use another label when a more specific primary contact driver is present.
+change_delivery_address,Delivery address needs update,Text primarily concerns: delivery address needs update,Use another label when a more specific primary contact driver is present.
+login_issue,Account access problem,Text primarily concerns: account access problem,Use another label when a more specific primary contact driver is present.
+reminder_missing,Reorder reminder not received,Text primarily concerns: reorder reminder not received,Use another label when a more specific primary contact driver is present.
+wrong_notification,Incorrect or confusing message,Text primarily concerns: incorrect or confusing message,Use another label when a more specific primary contact driver is present.
+complaint_service,General service complaint,Text primarily concerns: general service complaint,Use another label when a more specific primary contact driver is present.
+refund_query,Refund progress query,Text primarily concerns: refund progress query,Use another label when a more specific primary contact driver is present.
+online_doctor_order_status,Private service order status,Text primarily concerns: private service order status,Use another label when a more specific primary contact driver is present.
+urgent_ran_out_medicine,Customer reports no medicine remaining,Text primarily concerns: customer reports no medicine remaining,Use another label when a more specific primary contact driver is present.
+possible_adverse_effect,Possible adverse effect or clinical concern,Text primarily concerns: possible adverse effect or clinical concern,Use another label when a more specific primary contact driver is present.
+unclear_or_out_of_scope,Insufficient information,Text primarily concerns: insufficient information,Use another label when a more specific primary contact driver is present.

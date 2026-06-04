@@ -1,0 +1,12 @@
+{
+  "total_contacts": 7200,
+  "automated_or_self_service": 1908,
+  "proactive_message": 1753,
+  "human_adviser": 3338,
+  "clinical_escalation": 201,
+  "potential_deflected_contacts": 3661,
+  "potential_deflection_rate": 0.5084722222222222,
+  "assumed_gross_contact_value_gbp": 16474.5,
+  "assumed_proactive_message_cost_gbp": 210.35999999999999,
+  "assumed_net_value_gbp": 16264.14
+}

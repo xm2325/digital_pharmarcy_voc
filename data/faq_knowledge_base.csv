@@ -1,0 +1,9 @@
+question,answer,mapped_intent
+How do I request a repeat prescription?,Use your account or app to select the repeat medicines you need and submit the request to your GP surgery.,repeat_prescription_request
+Why is my prescription waiting for GP approval?,Your GP surgery must approve the medicine request before the pharmacy can prepare it. Contact your GP surgery if an urgent request needs clinical attention.,waiting_gp_approval
+How do I track my order?,"Open your account to view the current order stage. After dispatch, use the carrier tracking details sent to you.",delivery_tracking
+How do I change my delivery address?,Update your delivery address in your account before placing the next prescription request.,change_delivery_address
+Why did I not receive my reminder?,Check your notification preferences and contact details in your account. You can update reminder dates and channels.,reminder_missing
+What should I do if I have run out of medicine?,"Do not rely on automated support for urgent medicine needs. Contact your GP surgery, NHS 111 when appropriate, or seek urgent clinical advice.",urgent_ran_out_medicine
+What should I do if I have a possible side effect?,Possible adverse effects require clinical advice. Seek appropriate clinical support rather than relying on an automated answer.,possible_adverse_effect
+How do I contact customer care?,Use the Help and Support service to select the contact route that matches your query.,complaint_service

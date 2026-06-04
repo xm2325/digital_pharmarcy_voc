@@ -1,0 +1,18 @@
+{
+  "low_csat": {
+    "rows": 4601,
+    "positive_rate": 0.2636383394914149,
+    "test_rows": 1289,
+    "roc_auc": 0.6976554267650158,
+    "average_precision": 0.47813219726427625,
+    "accuracy_at_0_5": 0.6764934057408845
+  },
+  "not_retained_90d": {
+    "rows": 4601,
+    "positive_rate": 0.3207998261247555,
+    "test_rows": 1289,
+    "roc_auc": 0.580864044168392,
+    "average_precision": 0.3972138407854585,
+    "accuracy_at_0_5": 0.5787432117920869
+  }
+}

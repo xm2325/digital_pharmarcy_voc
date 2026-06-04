@@ -1,0 +1,31 @@
+cluster_id,rank,contact_id,timestamp,predicted_intent,prediction_confidence,raw_text
+0,1,C0026848,2026-05-16 09:25:21,unclear_or_out_of_scope,0.8572849657044749,Since the latest app update it crashes whenever I open the prescrption screen!!!
+0,2,C0029882,2026-05-31 09:15:46,unclear_or_out_of_scope,0.8506286149349738,After installing the latest version the app will not load the order page
+0,3,C0026190,2026-05-13 00:32:42,unclear_or_out_of_scope,0.87566271743375,right so Since the latest app update it crashes whenever I open the prescription screen
+0,4,C0029236,2026-05-28 04:47:58,unclear_or_out_of_scope,0.8812361730691097,hi I am calling because After installing the latest version the app will not load the order page please
+0,5,C0029861,2026-05-31 07:07:58,unclear_or_out_of_scope,0.8799300957150384,hello um After installing the latest version the app will not load the order page!!!
+1,1,C0027238,2026-05-18 07:24:07,unclear_or_out_of_scope,0.7596983171084597,hello um Please get back to me.
+1,2,C0027337,2026-05-18 17:35:20,unclear_or_out_of_scope,0.9276873549284792,hello um Please help with my issue
+1,3,C0021953,2026-04-21 05:21:15,unclear_or_out_of_scope,0.9276873549284792,hello um Please help with my issue
+1,4,C0026731,2026-05-15 20:07:37,unclear_or_out_of_scope,0.9276873549284792,hello um pls help with my issue.
+1,5,C0020414,2026-04-13 05:48:20,unclear_or_out_of_scope,0.9124390169800892,hello um I have a question about something on the site!!!
+2,1,C0002341,2026-01-12 17:07:28,unclear_or_out_of_scope,0.7428437320774526,"Hi support, Please get back to me"
+2,2,C0029641,2026-05-30 05:31:54,unclear_or_out_of_scope,0.896525400750005,"Hi support, Can someone contact me?"
+2,3,C0006360,2026-02-02 04:59:10,unclear_or_out_of_scope,0.896525400750005,"Hi support, Can someone contact me?."
+2,4,C0021788,2026-04-20 09:34:09,unclear_or_out_of_scope,0.899421396299723,"Hi support, Can someone contact me? please"
+2,5,C0020206,2026-04-12 05:27:50,unclear_or_out_of_scope,0.8294414686260053,"Hi support, Can someone help? please"
+3,1,C0022020,2026-04-21 12:49:41,unclear_or_out_of_scope,0.8936125609495881,pls help: Please help with my issue please
+3,2,C0005244,2026-01-27 06:00:21,unclear_or_out_of_scope,0.8949148305022743,"please can you help, Please help with my issue please"
+3,3,C0022848,2026-04-25 15:11:27,unclear_or_out_of_scope,0.900648887439575,pls help. Please help with my issue.
+3,4,C0024212,2026-05-02 16:27:58,unclear_or_out_of_scope,0.8994468813801813,"please can you help, Please help with my issue."
+3,5,C0025828,2026-05-11 03:01:17,unclear_or_out_of_scope,0.8949148305022743,"pls can you help, Please help with my issue please"
+4,1,C0016044,2026-03-21 21:20:51,unclear_or_out_of_scope,0.885207104950832,I have a question about something on the site!!!
+4,2,C0024752,2026-05-05 09:05:33,unclear_or_out_of_scope,0.885207104950832,I have a question about something on the site.
+4,3,C0016664,2026-03-24 22:07:40,unclear_or_out_of_scope,0.885207104950832,I have a question about something on the site!!!
+4,4,C0000928,2026-01-05 14:12:57,unclear_or_out_of_scope,0.885207104950832,I have a question about something on the site
+4,5,C0007272,2026-02-06 16:27:42,unclear_or_out_of_scope,0.9114143130205652,"pls can you help, I have a question about something on the site!!!"
+5,1,C0022888,2026-04-25 19:24:40,unclear_or_out_of_scope,0.8912420478671513,hello Can someone contact me? asap
+5,2,C0021622,2026-04-19 11:45:44,unclear_or_out_of_scope,0.8529069473797595,Can someone contact me? asap
+5,3,C0011112,2026-02-25 08:13:46,unclear_or_out_of_scope,0.8567188247440978,hi I am calling because Can someone contact me? asap
+5,4,C0001212,2026-01-07 01:57:14,unclear_or_out_of_scope,0.8769351976982673,hi - Can someone contact me? asap
+5,5,C0014450,2026-03-13 19:40:01,unclear_or_out_of_scope,0.8769351976982673,hi - Can someone contact me? asap
