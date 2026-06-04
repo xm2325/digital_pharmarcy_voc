@@ -1,6 +1,6 @@
 # Digital Pharmacy Voice-of-the-Customer Intelligence, Taxonomy Evolution and Safe Automation Workbench
 
-A portfolio project for a **Customer Insight Data Scientist** role in digital healthcare. The V2 repository turns noisy multi-channel customer text into contact-driver insight, safe routing recommendations, new-topic review queues, synthetic CRM outcome analysis, and a ten-page Streamlit dashboard.
+A portfolio project for a **Customer Insight Data Scientist** role in digital healthcare. The V2.1 repository turns noisy multi-channel customer text into contact-driver insight, safe routing recommendations, new-topic review queues, synthetic CRM outcome analysis, and a ten-page Streamlit dashboard.
 
 > **Important:** every contact and CRM record in this repository is synthetic. This is not a Pharmacy2U internal system. It contains no patient records and no company operational metrics.
 
@@ -156,3 +156,9 @@ Public Pharmacy2U and NHS pages informed the demonstration taxonomy and FAQ word
 - CRM outcome models describe associations in synthetic data. They do not estimate causal effects.
 - Safety-routing rules are a portfolio demonstration boundary, not clinical guidance.
 - A live deployment would need reviewed labels, privacy and security assessment, access controls, monitoring, incident response, and human oversight.
+
+## Streamlit Community Cloud compatibility
+
+The packaged scikit-learn models were fitted under Python 3.13. Streamlit Community Cloud may default to Python 3.14 for a newly created app. V2.1 loads fitted models only when the interactive chatbot page is opened. If a packaged `joblib` artefact is not portable in the selected cloud environment, the app rebuilds lightweight chatbot models in memory from `data/annotation_seed.csv`. The stored offline benchmark outputs are not replaced. For the closest environment match, select Python 3.13 in Streamlit Cloud **Advanced settings** when creating the app.
+
+See `reports/deployment_guide.md` and `reports/v2_1_deployment_fix.md`.

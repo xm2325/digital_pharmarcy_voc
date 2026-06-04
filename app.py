@@ -12,7 +12,6 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src.analytics import emerging_issues, weekly_intent_trends
-from src.faq_retrieval import FAQRetriever
 from src.preprocess import clean_text
 from src.routing import add_routes, assign_route, deflection_scenario
 
@@ -60,14 +59,17 @@ def load_data() -> dict[str, object]:
 
 @st.cache_resource
 def load_models():
-    return (
-        joblib.load(MODELS / "intent_classifier.joblib"),
-        joblib.load(MODELS / "sentiment_classifier.joblib"),
-    )
+    # Imported lazily so the nine analytics pages remain available even if a
+    # deployment environment has a model-artefact compatibility problem.
+    from src.runtime_models import load_or_rebuild_models
+
+    return load_or_rebuild_models(MODELS, DATA)
 
 
 @st.cache_resource
 def load_retriever():
+    from src.faq_retrieval import FAQRetriever
+
     faq = pd.read_csv(DATA / "faq_knowledge_base.csv")
     return FAQRetriever(faq, mode="lsa", answerability_threshold=0.22)
 
@@ -85,7 +87,6 @@ faq: pd.DataFrame = data["faq"]  # type: ignore[assignment]
 taxonomy: pd.DataFrame = data["taxonomy"]  # type: ignore[assignment]
 metrics: dict = data["metrics"]  # type: ignore[assignment]
 sentiment_metrics: dict = data["sentiment_metrics"]  # type: ignore[assignment]
-intent_model, sentiment_model = load_models()
 
 st.title("Digital Pharmacy Voice-of-the-Customer Workbench · V2")
 st.caption("Synthetic multi-channel contacts · NLP benchmarking · taxonomy evolution · safe automation · CRM insight · governance")
@@ -292,6 +293,16 @@ elif page == "Data quality and governance":
 
 elif page == "Chatbot knowledge-base readiness":
     st.subheader("Safe FAQ retrieval demonstration")
+    model_bundle = load_models()
+    intent_model = model_bundle.intent_model
+    sentiment_model = model_bundle.sentiment_model
+    if model_bundle.fallback_used:
+        st.warning(
+            "The packaged scikit-learn artefacts were not portable in this deployment environment. "
+            "The chatbot demonstration rebuilt lightweight in-memory models from the packaged labelled seed data. "
+            "The benchmark pages still report the offline build outputs."
+        )
+    st.caption(f"Interactive model source: {model_bundle.source}")
     query = st.text_input("Enter a customer message", "My GP has not approved my prescription yet. What should I do?")
     cleaned, redaction_count = clean_text(query)
     intent_proba = intent_model.predict_proba([cleaned])[0]
